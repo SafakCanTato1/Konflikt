@@ -1,5 +1,8 @@
 public class compareTo
 {
+    private String name;
+    private int alter;
+    
     public int compareTo(int o)
     {
     return 0;
@@ -14,11 +17,6 @@ public class compareTo
     {
     }
    
-    public boolean compareTo(int o)
-    {
-        return true;
-    }
-   
     public String compareTo(String num)
     {
         return "";
@@ -29,23 +27,8 @@ public class compareTo
         return false;
     }
    
-    public String compareTo(int num)
-    {
-        return "";
-    }
-   
     public boolean compareTo(String o, boolean gross)
     {
         return false;
-    }
-   
-    public int compareTo(int o)
-    {
-       return 0;
-    }
-   
-    public booelan compareTo(String num)
-    {
-        return true;
     }
 }
