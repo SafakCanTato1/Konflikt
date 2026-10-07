@@ -14,10 +14,6 @@ public class compareTo
     {
     }
    
-    public boolean compareTo(int o)
-    {
-        return true;
-    }
    
     public String compareTo(String num)
     {
